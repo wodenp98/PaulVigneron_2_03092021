@@ -1,49 +1,51 @@
 body {
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 /************header*****************/
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
 }
 
 nav ul {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 
 nav li {
-    margin-right: 60px;
+  margin-right: 60px;
 }
 
 nav a {
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 44px;
-    padding-bottom: 44px;
-    border-top: 3px solid white;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 44px;
+  padding-bottom: 44px;
+  border-top: 3px solid white;
 }
 
 nav a:hover {
-    color: #0065FC;
-    border-top: 3px solid #0065FC;    
-} 
+  color: #0065fc;
+  border-top: 3px solid #0065fc;
+}
 
 .sign_up a {
-    font-weight: bold;
-    color: #0065FC;
-} 
+  font-weight: bold;
+  color: #0065fc;
+}
 
 .sign_up a:hover {
-    border-top: none;
+  border-top: none;
 }
+
+/******* Recherche ********/
