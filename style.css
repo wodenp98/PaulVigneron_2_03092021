@@ -64,6 +64,7 @@ nav a:hover {
   padding: 15px;
   background-color: #f2f2f2;
   border-radius: 15px 0 0 15px;
+  margin-left: 30px;
 }
 
 .city {
@@ -87,6 +88,7 @@ nav a:hover {
 .filters {
   display: flex;
   align-items: center;
+  margin-left: 30px;
 }
 
 ul {
@@ -99,6 +101,7 @@ ul {
   border: 2px solid #f2f2f2;
   border-radius: 200px;
   padding: 0px 20px 0 0;
+  margin-right: 20px;
 }
 
 .logo_filters {
@@ -107,4 +110,20 @@ ul {
   border-radius: 200px;
   padding: 15px;
   margin-right: 25px;
+}
+
+.filters li:hover {
+  background-color: #0065fc;
+}
+
+.info p {
+  display: inline;
+}
+
+.fa-info {
+  border: 3px solid #f2f2f2;
+  color: #0065fc;
+  border-radius: 100%;
+  padding: 5px 10px 5px 10px;
+  margin: 20px 15px 0px 30px;
 }
