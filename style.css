@@ -48,4 +48,38 @@ nav a:hover {
   border-top: none;
 }
 
-/******* Recherche ********/
+/******* Recherche ******/
+.search {
+  margin: 30px;
+}
+
+.form {
+  display: flex;
+  width: 30px;
+  margin: 20px 0 20px 0;
+}
+
+.fa-map-marker-alt {
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-radius: 15px 0 0 15px;
+}
+
+.city {
+  padding: 15px;
+  font-weight: bold;
+  border-right: none;
+  border: 2px solid #f2f2f2;
+  font-size: 1rem;
+}
+
+.btn_search {
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #0065fc;
+  border: none;
+  border-radius: 0 15px 15px 0;
+}
+
+/*************Filters**************/
