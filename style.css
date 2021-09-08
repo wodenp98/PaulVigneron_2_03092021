@@ -131,7 +131,7 @@ nav a:hover {
   margin: 20px 15px 0px 30px;
 }
 
-/************** Hébergements à Marseille et les plus populaires ***************/
+/************** Hébergements à Marseille ***************/
 .main_hosting {
   display: flex;
   justify-content: space-around;
@@ -199,3 +199,5 @@ nav a:hover {
   font-weight: bold;
   padding: 20px 0 50px 40px;
 }
+
+/***************** Les plus populaires *******************/
