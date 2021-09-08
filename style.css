@@ -135,6 +135,7 @@ nav a:hover {
 .main_hosting {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
 }
 
 .hosting_marseille {
@@ -196,6 +197,5 @@ nav a:hover {
 .view_more {
   font-size: 1.3em;
   font-weight: bold;
-  padding-left: 40px;
-  padding-top: 20px;
+  padding: 20px 0 50px 40px;
 }
