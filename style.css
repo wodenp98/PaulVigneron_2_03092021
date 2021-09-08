@@ -91,14 +91,17 @@ nav a:hover {
   margin-left: 30px;
 }
 
-ul {
+.filters ul {
   display: flex;
   list-style-type: none;
 }
 
 .filters li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   font-weight: bold;
-  border: 2px solid #f2f2f2;
+  border: 3px solid #f2f2f2;
   border-radius: 200px;
   padding: 0px 20px 0 0;
   margin-right: 20px;
@@ -109,11 +112,11 @@ ul {
   color: #0065fc;
   border-radius: 200px;
   padding: 15px;
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .filters li:hover {
-  background-color: #0065fc;
+  border: 3px solid #0065fc;
 }
 
 .info p {
@@ -129,32 +132,70 @@ ul {
 }
 
 /************** Hébergements à Marseille et les plus populaires ***************/
-.main_accomodations {
+.main_hosting {
   display: flex;
+  justify-content: space-around;
 }
 
-.accomodations_marseille {
+.hosting_marseille {
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 60%;
+  height: 60%;
 }
 
-.first_hotel {
-  background-color: #f2f2f2;
-  display: flex;
+.hosting_marseille h2 {
+  padding-left: 40px;
+  margin-top: 40px;
 }
 
-.first_hotel article {
+.hosting_marseille article {
   background-color: white;
-  border: 4px solid red;
+  border: 4px solid transparent;
+  box-shadow: 1px 1px 15px #d1d1d1;
   border-radius: 20px;
-  width: 50%;
-  height: 400px;
+  margin: 0 20px 0 20px;
+  width: 40%;
+  height: 220px;
+}
+
+.first_hotel,
+.second_hotel {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
 }
 
 .hotel img {
   width: 100%;
-  height: 200px;
+  height: 125px;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
+}
+
+.hotel h3 {
+  margin: 5px 0 0 10px;
+}
+
+.hotel p {
+  margin: 5px 0px 5px 10px;
+}
+
+.stars {
+  margin-left: 10px;
+}
+
+.full {
+  color: #0065fc;
+}
+
+.empty {
+  color: #d9d9d9;
+}
+
+.view_more {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding-left: 40px;
+  padding-top: 20px;
 }
