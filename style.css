@@ -142,7 +142,7 @@ nav a:hover {
 #main_hosting {
   display: flex;
   width: 5487%;
-  height: 3875%;
+  height: 100%;
 }
 
 .hosting_marseille {
@@ -176,7 +176,7 @@ nav a:hover {
 
 .hotel img {
   width: 100%;
-  height: 125px;
+  height: 60%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
