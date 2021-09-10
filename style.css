@@ -14,7 +14,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px;
+  margin: 50px;
 }
 
 nav ul {
@@ -51,7 +51,7 @@ nav a:hover {
 /******************** Recherche********************/
 
 .search {
-  margin: 30px;
+  margin: 50px;
 }
 
 .form {
@@ -118,7 +118,8 @@ h3 + ul {
 }
 
 .filters li:hover {
-  background-color: #deebff;
+  background-color: #0065fc;
+  font-style: italic;
 }
 
 .info p {
@@ -139,6 +140,7 @@ h3 + ul {
 .main_hosting {
   display: flex;
   justify-content: space-around;
+  margin: 20px;
 }
 
 .hosting_marseille {
@@ -256,7 +258,7 @@ h3 + ul {
 /************************ Activités**********************/
 
 #activities {
-  margin: 30px;
+  margin: 50px;
   margin-top: 50px;
   margin-bottom: 45px;
 }
@@ -346,7 +348,7 @@ footer ul {
 
 .footer_list {
   width: 50%;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 footer li {
