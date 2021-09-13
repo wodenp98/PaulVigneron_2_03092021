@@ -84,6 +84,9 @@ nav a:hover {
   border-radius: 0 15px 15px 0;
 }
 
+.btn_icon {
+  display: none;
+}
 /********************** Filters ******************/
 
 .filters {
@@ -358,4 +361,9 @@ footer li {
 
 footer h3 {
   margin-left: 5px;
+}
+
+/**************** Media-queries **********************/
+
+@media screen and (max-width: ) {
 }
