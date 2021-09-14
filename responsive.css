@@ -2,7 +2,7 @@
 
 /***************** Smartphone version portrait ***********************/
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 375px) {
   .sign_up {
     position: absolute;
     top: 47px;
