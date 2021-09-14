@@ -163,8 +163,8 @@ h3 + ul {
   border: 4px solid transparent;
   border-radius: 20px;
   box-shadow: 1px 1px 8px #e2e2e2;
-  width: 246px;
-  height: 199px;
+  width: 30%;
+  height: 13.5vw;
 }
 
 .first_hotel,
@@ -176,7 +176,7 @@ h3 + ul {
 
 .hotel img {
   width: 100%;
-  height: 114px;
+  height: 8vw;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
 }
@@ -234,15 +234,15 @@ h3 + ul {
   border: 4px solid transparent;
   border-radius: 20px;
   box-shadow: 1px 1px 8px #e2e2e2;
-  width: 343px;
-  height: 144px;
+  width: 72%;
+  height: 10vw;
   margin: 15px;
   display: flex;
 }
 
 .hotel_2 img {
-  width: 127px;
-  height: 100%;
+  width: 9vw;
+  height: 10vw;
   object-fit: cover;
   border-radius: 20px 0 0 20px;
 }
@@ -262,7 +262,7 @@ h3 + ul {
 /************************ Activités**********************/
 
 #activities {
-  margin: 50px;
+  margin: 35px;
   margin-top: 50px;
   margin-bottom: 45px;
 }
@@ -365,10 +365,103 @@ footer h3 {
 
 /**************** Media-queries **********************/
 
-/***************** Smartphones ***********************/
+/***************** Smartphone version portrait ***********************/
 
-/* @media screen and (max-width: 667px) {
-  body {
-    background-color: red;
+@media screen and (max-width: 667px) {
+  .sign_up {
+    position: absolute;
+    top: 47px;
+    right: 0px;
   }
-} */
+
+  .sign_up :hover {
+    border-bottom: none;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    margin: 0;
+  }
+
+  nav a {
+    border-top: none;
+  }
+
+  .menu_hosting {
+    width: 50%;
+    padding-top: 20px;
+    margin-right: 25px;
+    padding-bottom: 15px;
+  }
+
+  .menu_activites {
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  nav ul {
+    border-bottom: 4px solid #f2f2f2;
+  }
+
+  nav a:hover {
+    border-top: none;
+  }
+
+  .menu_hosting:hover {
+    border-bottom: 4px solid #0065fc;
+  }
+
+  .menu_activites:hover {
+    border-bottom: 4px solid #0065fc;
+  }
+
+  .search {
+    margin: 20px;
+  }
+
+  .search p {
+    margin-bottom: 10vw;
+  }
+
+  .form {
+    width: 90%;
+  }
+
+  .btn_search {
+    display: none;
+  }
+
+  .city {
+    width: 48vw;
+    border-right: none;
+  }
+
+  .btn_icon {
+    display: unset;
+    background-color: #0065fc;
+    color: white;
+    padding: 18px;
+    border-radius: 15px;
+  }
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logo_filters {
+    margin-right: 10px;
+  }
+
+  .filters li {
+    margin-left: 5px;
+  }
+
+  h3 + ul {
+    justify-content: flex-start;
+  }
+}
