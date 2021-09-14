@@ -419,6 +419,9 @@ footer h3 {
     border-bottom: 4px solid #0065fc;
   }
 
+  h1 {
+    font-size: 1.5em;
+  }
   .search {
     margin: 20px;
   }
@@ -463,5 +466,61 @@ footer h3 {
 
   h3 + ul {
     justify-content: flex-start;
+  }
+
+  #hosting {
+    flex-direction: column-reverse;
+  }
+
+  .most_popular {
+    width: 100%;
+    border-radius: 0;
+    padding-bottom: 15px;
+  }
+
+  .title_most_popular {
+    padding-left: 0;
+  }
+
+  .hotel_2 {
+    width: 80%;
+    height: 40vw;
+  }
+
+  .hotel_2 img {
+    width: 30vw;
+    height: 40vw;
+  }
+
+  .hosting_marseille {
+    width: 100%;
+    background-color: white;
+  }
+
+  .first_hotel,
+  .second_hotel {
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  .hosting_marseille h2 {
+    padding-left: 20px;
+  }
+
+  .hosting_marseille article {
+    width: 85%;
+    height: 52vw;
+    margin: 10px;
+    margin-left: 20px;
+  }
+
+  .hosting_marseille img {
+    width: 100%;
+    height: 30vw;
+  }
+
+  .view_more {
+    margin-bottom: 5px;
+    margin-left: 10px;
   }
 }
