@@ -7,6 +7,7 @@
     position: absolute;
     top: 47px;
     right: 0px;
+    padding-bottom: 50px;
   }
 
   .sign_up :hover {
@@ -15,6 +16,11 @@
 
   nav {
     flex-wrap: wrap;
+    margin: 0;
+  }
+
+  nav img {
+    padding: 30px;
   }
 
   nav li {
@@ -27,19 +33,20 @@
 
   .menu_hosting {
     width: 50%;
-    padding-top: 20px;
-    margin-right: 25px;
-    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
   }
 
   .menu_activites {
     width: 50%;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-bottom: 10px;
   }
 
   nav ul {
-    border-bottom: 4px solid #f2f2f2;
+    border-bottom: 3px solid #f2f2f2;
+    width: 100%;
+    padding: 0;
   }
 
   nav a:hover {
@@ -47,11 +54,11 @@
   }
 
   .menu_hosting:hover {
-    border-bottom: 4px solid #0065fc;
+    border-bottom: 3px solid #0065fc;
   }
 
   .menu_activites:hover {
-    border-bottom: 4px solid #0065fc;
+    border-bottom: 3px solid #0065fc;
   }
 
   h1 {
@@ -59,7 +66,7 @@
   }
   .fa-map-marker-alt {
     border-radius: 14px 0px 0px 14px;
-    width: 20px;
+    width: 10px;
     height: 20px;
     padding: 17px;
   }
@@ -73,6 +80,8 @@
 
   .form {
     width: 90%;
+    height: 54px;
+    margin: 20px 0 20px 0;
   }
 
   .btn_search {
@@ -88,9 +97,11 @@
     display: unset;
     background-color: #0065fc;
     color: white;
-    padding: 18px;
-    border-radius: 15px;
+    padding: 15px;
+    border-radius: 0 15px 15px 0;
   }
+
+  /**** filtres ****/
 
   .filters {
     display: flex;
@@ -105,12 +116,24 @@
     margin-left: 5px;
   }
 
-  h3 + ul {
-    justify-content: flex-start;
+  .filters ul {
+    margin: 0;
+    padding: 0;
   }
+
+  .info {
+    margin-top: 30px;
+  }
+
+  .info p {
+    font-size: 0.9em;
+  }
+
+  /**** Hébergements et les plus populaires ****/
 
   #hosting {
     flex-direction: column-reverse;
+    margin: 0;
   }
 
   .most_popular {
