@@ -1,5 +1,155 @@
 /**************** Media-queries **********************/
+/*----------------------tablette (portrait)-------------*/
 
+@media screen and (min-width: 380px) and (max-width: 769px) {
+  .sign_up {
+    position: absolute;
+    top: 47px;
+    right: 0px;
+  }
+
+  .sign_up :hover {
+    border-bottom: none;
+  }
+
+  nav {
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    margin: 0;
+  }
+
+  nav ul {
+    width: 100%;
+    padding: 0;
+    border-bottom: 4px solid #f2f2f2;
+    text-align: center;
+  }
+
+  .menu_hosting {
+    width: 50%;
+    padding-top: 60px;
+    margin-right: 0;
+    padding-bottom: 15px;
+  }
+
+  .menu_activites {
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom: 15px;
+  }
+
+  .menu_hosting:hover {
+    border-bottom: 4px solid #0065fc;
+  }
+
+  .menu_activites:hover {
+    border-bottom: 4px solid #0065fc;
+  }
+
+  nav a:hover {
+    border-top: none;
+  }
+
+  .form {
+    width: 90%;
+  }
+
+  .btn_search {
+    display: none;
+  }
+
+  .city {
+    width: 48vw;
+  }
+
+  .btn_icon {
+    display: unset;
+    width: 50px;
+    background-color: #0065fc;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    border-right: none;
+    margin-left: -10px;
+  }
+
+  #hosting {
+    flex-direction: column-reverse;
+  }
+
+  .most_popular {
+    width: 100%;
+    border-radius: 0;
+    padding-bottom: 15px;
+  }
+
+  .hotel_2 {
+    width: 85%;
+    height: 30vw;
+  }
+
+  .hotel_2 img {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .hosting_marseille {
+    width: 100%;
+    background-color: white;
+  }
+
+  .first_hotel,
+  .second_hotel {
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  .hosting_marseille h2 {
+    margin-left: 0px;
+  }
+
+  .hosting_marseille article {
+    width: 90%;
+    height: auto;
+    margin: 10px;
+    margin-left: 25px;
+  }
+
+  .hosting_marseille img {
+    width: 100%;
+    height: 30vw;
+  }
+
+  .view_more {
+    margin-bottom: 5px;
+    margin-left: 10px;
+  }
+
+  #activities {
+    margin: 40px;
+  }
+
+  .activities {
+    flex-direction: column;
+  }
+
+  .activities img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .activities article {
+    height: auto;
+    width: 85vw;
+    margin: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+}
 /***************** Smartphone version portrait ***********************/
 
 @media screen and (max-width: 376px) {
