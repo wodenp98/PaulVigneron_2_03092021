@@ -1,4 +1,105 @@
 /**************** Media-queries **********************/
+
+@media screen and (max-width: 1340px) {
+  .hosting_marseille article {
+    height: 18vw;
+    width: 17vw;
+    margin: 10px;
+  }
+
+  .hotel_2 {
+    height: 15vw;
+  }
+
+  .hotel_2 img {
+    height: 100%;
+  }
+
+  .hotel_2 h3 {
+    padding-top: 15px;
+  }
+
+  .hotel_2 p {
+    padding-top: 15px;
+  }
+
+  .stars_popular {
+    margin: 40px 0 0 15px;
+  }
+
+  .activities article {
+    width: 19vw;
+    height: auto;
+  }
+
+  .activities img {
+    width: 100%;
+  }
+}
+
+/*************** tablette paysage *************/
+
+@media screen and (max-width: 1280px) {
+  .form {
+    width: 40vw;
+  }
+
+  #hosting {
+    flex-direction: column-reverse;
+    margin: 0;
+  }
+
+  .hosting_marseille {
+    width: 100%;
+    margin-top: 25px;
+    border-radius: 0;
+  }
+
+  .hosting_marseille article {
+    height: 22vw;
+    margin: 10px;
+    margin-left: 25px;
+    width: 22vw;
+  }
+
+  .hotel img {
+    height: 12vw;
+  }
+
+  .hotel_2 {
+    width: 85%;
+  }
+
+  .most_popular {
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .stars_popular {
+    margin: 0px 0px 0px 15px;
+  }
+
+  .hotel_2 img {
+    width: 30vw;
+  }
+
+  #activities h2 {
+    margin-left: 0;
+  }
+
+  .activities img {
+    width: 100%;
+  }
+
+  .activities article {
+    width: 20vw;
+    height: auto;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
 /********************* tablette portrait ********************/
 
 @media screen and (min-width: 380px) and (max-width: 769px) {
@@ -24,21 +125,30 @@
   nav ul {
     width: 100%;
     padding: 0;
-    border-bottom: 4px solid #f2f2f2;
+    /* border-bottom: 4px solid #f2f2f2; */
     text-align: center;
   }
 
   .menu_hosting {
     width: 50%;
     padding-top: 60px;
-    margin-right: 0;
     padding-bottom: 15px;
+    border-bottom: 3px solid #f2f2f2;
   }
 
   .menu_activites {
     width: 50%;
     padding-top: 60px;
     padding-bottom: 15px;
+    border-bottom: 3px solid #f2f2f2;
+  }
+
+  .menu_hosting:hover {
+    border-bottom: 3px solid #0065fc;
+  }
+
+  .menu_activites:hover {
+    border-bottom: 3px solid #0065fc;
   }
 
   nav a:hover {
@@ -81,17 +191,10 @@
     padding-bottom: 15px;
   }
 
-  .most_popular a {
-    margin-top: 30px;
-  }
-
   .most_popular h3 {
     font-size: 1.5em;
   }
 
-  .most_popular p {
-    padding-top: 20px;
-  }
   .hotel_2 {
     width: 85%;
     height: 30vw;
