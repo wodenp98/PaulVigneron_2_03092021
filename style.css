@@ -105,8 +105,8 @@ h3 + ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border: 3px solid #f2f2f2;
-  border-radius: 200px;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
   font-weight: bold;
   padding: 0 20px 0 0;
   margin-top: 10px;
@@ -119,10 +119,11 @@ h3 + ul {
   border-radius: 200px;
   padding: 15px;
   margin-right: 25px;
+  margin-left: -3px;
+  height: 17px;
 }
 
 .filters li:hover {
-  border: 2px solid #0065fc;
   background-color: #deebff;
   font-style: italic;
 }
