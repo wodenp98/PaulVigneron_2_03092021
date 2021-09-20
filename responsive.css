@@ -96,7 +96,7 @@
 }
 /********************* tablette portrait ********************/
 
-@media screen and (min-width: 380px) and (max-width: 769px) {
+@media screen and (min-width: 377px) and (max-width: 769px) {
   /** menu **/
   .sign_up {
     position: absolute;
@@ -185,7 +185,7 @@
   }
 
   .most_popular h3 {
-    font-size: 1.5em;
+    font-size: 1em;
   }
 
   .hotel_2 {
@@ -257,7 +257,7 @@
 
 /***************** Smartphone version portrait ***********************/
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 376px) {
   /* header  */
   .sign_up {
     position: absolute;
