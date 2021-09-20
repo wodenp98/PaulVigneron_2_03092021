@@ -394,7 +394,8 @@
 
   .info {
     margin-top: 30px;
-    margin: 30px;
+    margin: 30px 30px 30px 64px;
+    text-indent: -17%;
   }
 
   .info p {
