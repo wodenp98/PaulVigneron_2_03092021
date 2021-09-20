@@ -16,14 +16,6 @@
     height: 100%;
   }
 
-  .hotel_2 h3 {
-    padding-top: 15px;
-  }
-
-  .hotel_2 p {
-    padding-top: 15px;
-  }
-
   .stars_popular {
     margin: 40px 0 0 15px;
   }
@@ -262,6 +254,7 @@
     flex-direction: column;
   }
 }
+
 /***************** Smartphone version portrait ***********************/
 
 @media screen and (max-width: 380px) {
