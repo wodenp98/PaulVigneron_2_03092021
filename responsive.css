@@ -85,6 +85,9 @@
     width: 100%;
   }
 
+  .activities h3 {
+    font-size: 15px;
+  }
   .activities article {
     width: 20vw;
     height: auto;
