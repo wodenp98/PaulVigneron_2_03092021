@@ -416,6 +416,10 @@
     padding-left: 0;
   }
 
+  .stars_popular {
+    margin-top: 40px;
+  }
+
   .hotel_2 {
     width: 80%;
     height: 40vw;
@@ -479,6 +483,10 @@
 
   #activities h2 {
     margin-left: 18px;
+  }
+
+  .black {
+    margin-right: 10px;
   }
   /* footer  */
   footer {
